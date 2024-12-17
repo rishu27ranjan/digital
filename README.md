@@ -3,14 +3,14 @@ This is a Node.js-based application that manages hotel guest onboarding processe
 
 Main Admin - Manages hotel registrations.
 Guest Admin - Manages guest records.
-#Features#
+# Features
 Admin Registration & Authentication: Secure login for main admins using JWT-based authentication.
 Guest Management: Guest Admins can add guests and generate QR codes with unique identification codes.
 QR Code Generation: Automatically generates a QR code for each guest, which can be used for quick identification.
 Secure Access: Protected routes for admins to prevent unauthorized access.
 Guest Data Retrieval: View all registered guests' information securely.
 
-#Technologies Used#
+# Technologies Used
 Node.js: JavaScript runtime for server-side logic.
 Express.js: Lightweight framework for building APIs.
 MongoDB: NoSQL database for storing user and guest data.
@@ -20,10 +20,10 @@ Bcrypt.js: Password hashing for secure login.
 QRCode: Library to generate unique QR codes.
 Dotenv: Environment variable management.
 
-#API END POINTS
-#Admin Routes#
+# API END POINTS
+# Admin Routes
 /api/admin/register-POST
 /api/admin/login-POST
-#Guest Admin Routes#
+# Guest Admin Routes
 /api/guest-admin/guests-POST
 /api/guest-admin/guests-GET
