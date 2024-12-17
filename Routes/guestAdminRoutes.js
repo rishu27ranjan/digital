@@ -1,6 +1,6 @@
 const express = require("express");
-const { addGuest, getGuests } = require("../controllers/guestAdminController");
-const protect = require("../middleware/authMiddleware");
+const { addGuest, getGuests } = require("../Controller/guestAdminController.js");
+const protect = require("../middleware/authMiddleware.js");
 
 const router = express.Router();
 
